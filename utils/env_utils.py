@@ -1,7 +1,9 @@
+# PLEASE CHANGE THEM TO YOUR OWN PATHs BEFORE RUNNING !!
 IMAGENET_PATH="/nfs-shared/haowei/sharing/imagenet-1k"
 IMAGENET_STATISTICS_PATH={
     str(label): f"/nfs-shared/haowei/sharing/imagenet-1k-fid-stats-{label}.pt" for label in [111, 222, 333, 444]
 }
+
 CELEBA_PATH="./data/celeba_hq_256"
 PARTIPROMPOTS_PATH="./data/partiprompts_1000.txt"
 WIKIART_PATH='./data/wikiart'
